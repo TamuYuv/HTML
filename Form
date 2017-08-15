@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> SignUp</title>
+	</head>
+	<body bgcolor="aliceblue">
+	<br>
+	<br>
+	<h2 align="center">Sign Up</h2>
+	<br>
+	<br>
+		<form>
+			<table align="center">
+				<tr>
+					<td align="left">First Name:</td>
+					<td align="right"> <input type="Text" name="firstname">
+				</tr>
+				<tr>
+					<td align="left">Last Name:</td>
+					<td align="right"> <input type="Text" name="lastname"></td>
+				</tr>
+				<tr>
+					<td align="left">DOB</td>
+					<td align="left">Year: </td>
+					<td align="left"><select>
+						<optgroup label="2000"></optgroup>
+						<optgroup label="2001"></optgroup>
+						<optgroup label="2002"></optgroup>
+						<optgroup label="2003"></optgroup>
+						<optgroup label="2004"></optgroup>
+						<optgroup label="2005"></optgroup>
+						<optgroup label="2006"></optgroup>
+						<optgroup label="2007"></optgroup>
+						<optgroup label="2008"></optgroup>
+						<optgroup label="2009"></optgroup>
+						</select>
+						</td>
+					<td align="left">Month: </td>
+					<td align="left"><select>
+						<optgroup label="January"></optgroup>
+						<optgroup label="February"></optgroup>
+						<optgroup label="March"></optgroup>
+						<optgroup label="April"></optgroup>
+						<optgroup label="May"></optgroup>
+						<optgroup label="June"></optgroup>
+						<optgroup label="July"></optgroup>
+						<optgroup label="August"></optgroup>
+						<optgroup label="september"></optgroup>
+						<optgroup label="oct0ber"></optgroup>
+						<optgroup label="Novemberber"></optgroup>
+						<optgroup label="December"></optgroup>
+						</select>
+						</td>
+					<td align="left">Day: </td>
+					<td align="left"><select>
+						<optgroup label="1"></optgroup>
+						<optgroup label="2"></optgroup>
+						<optgroup label="3"></optgroup>
+						<optgroup label="4"></optgroup>
+						<optgroup label="5"></optgroup>
+						<optgroup label="6"></optgroup>
+						<optgroup label="7"></optgroup>
+						<optgroup label="8"></optgroup>
+						<optgroup label="9"></optgroup>
+						<optgroup label="10"></optgroup>
+						<optgroup label="11"></optgroup>
+						<optgroup label="12"></optgroup>
+						<optgroup label="13"></optgroup>
+						<optgroup label="14"></optgroup>
+						<optgroup label="15"></optgroup>
+						<optgroup label="16"></optgroup>
+						<optgroup label="17"></optgroup>
+						<optgroup label="18"></optgroup>
+						<optgroup label="19"></optgroup>
+						<optgroup label="20"></optgroup>
+						<optgroup label="21"></optgroup>
+						<optgroup label="22"></optgroup>
+						<optgroup label="23"></optgroup>
+						<optgroup label="24"></optgroup>
+						<optgroup label="25"></optgroup>
+						<optgroup label="26"></optgroup>
+						<optgroup label="27"></optgroup>
+						<optgroup label="28"></optgroup>
+						<optgroup label="29"></optgroup>
+						 <optgroup label="30"></optgroup>
+						<optgroup label="31"></optgroup>
+						</select>
+						</td>
+				</tr>
+				<tr>
+					<td align="left">User Name:</td>
+					<td align="left"> <input type="Text" name="username"></td>
+				</tr>
+				<tr>
+					<td align="left">Password:</td>
+					<td align="left"> <input type="Text" name="Password"></td>
+				</tr>
+				<tr>
+					<td align="left">Confirm Password:</td>
+					<td align="left"> <input type="Text" name="CPassword"></td>
+				</tr>
+
+				<tr> 
+					<td>Male :</td>
+					<td align="center"> <input type="radio" value="Gender"> </td>
+	
+					<td>Female :</td>
+					<td align="center"> <input type="radio" value="Gender"> </td>
+				</tr>
+				<tr>
+					<td align="left">Intrested Courses:</td>
+				</tr>
+				<tr>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course1" >Network Security</td>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course2" >Oracle</td>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course3" >PHP</td>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course4" >Java</td>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course5" >ASP .NET</td>
+				</tr>
+				<tr>
+					<td align="left"> <input type="checkbox" name="Course6" >AJAX</td>
+				</tr> 	
+					
+				
+			</table>
+			<br>
+			<br>
+			<div align="center"> <input type="submit" value="submit"> </div>
+		</form>
+	</body>
+</html>
